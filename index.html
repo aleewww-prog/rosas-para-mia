@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#160c11">
+  <meta name="description" content="Un pequeño ramo de rosas digital, de Alejandro para Mia. Feliz 21 de septiembre, mi amor.">
+  <title>Para Mia, con amor · 21 de septiembre</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%2320121b'/%3E%3Cpath d='M20 29 9 18C2 8 16 5 20 13 24 5 38 8 31 18Z' fill='%23c88699'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-stage="welcome">
+  <!-- Ilustración original reutilizada por el ramo y por las seis rosas. -->
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="petal-outer" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e45b78"/><stop offset=".42" stop-color="#ad2449"/><stop offset="1" stop-color="#590d2a"/></linearGradient>
+      <linearGradient id="petal-middle" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f18a9b"/><stop offset=".25" stop-color="#d94c6b"/><stop offset=".74" stop-color="#9f183b"/><stop offset="1" stop-color="#570c27"/></linearGradient>
+      <linearGradient id="petal-fold" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#f4a2aa"/><stop offset=".2" stop-color="#d94c68"/><stop offset="1" stop-color="#7e1235"/></linearGradient>
+      <radialGradient id="rose-core"><stop stop-color="#4c0c24"/><stop offset=".6" stop-color="#8d1537"/><stop offset="1" stop-color="#cc405f"/></radialGradient>
+      <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#577263"/><stop offset=".5" stop-color="#2a493d"/><stop offset="1" stop-color="#152c26"/></linearGradient>
+      <linearGradient id="stem" x1="0" x2="1"><stop stop-color="#1b322a"/><stop offset=".5" stop-color="#64765b"/><stop offset="1" stop-color="#263f31"/></linearGradient>
+      <g id="rose-bloom">
+        <path d="M-24 31 -41 14 -22 16 -12 2 0 21 16 9 25 19 40 13 23 36Z" fill="#2d4a39"/>
+        <path d="M-43 14C-65-10-46-45-22-46-8-68 16-65 28-46 61-42 65-15 48 7 50 34 25 51 0 49-27 50-46 37-43 14Z" fill="url(#petal-outer)"/>
+        <path d="M-43 14C-61-6-51-32-31-35-44-11-23 6-3 17-15 33-36 30-43 14Z" fill="url(#petal-middle)"/>
+        <path d="M-31-35C-18-61 8-61 25-43 8-45-8-33-9-12-22-10-39-20-31-35Z" fill="url(#petal-fold)"/>
+        <path d="M25-43C51-47 64-20 47 0 36 12 18 10 5 5 25-5 34-20 25-43Z" fill="url(#petal-middle)"/>
+        <path d="M47 0C56 21 37 43 13 44-5 50-30 39-31 23-10 33 4 25 13 13 24 7 37 11 47 0Z" fill="url(#petal-outer)"/>
+        <path d="M-30-9C-24-29-6-39 12-30 34-33 40-10 23 6 22 25-3 31-21 15-33 12-36 2-30-9Z" fill="url(#rose-core)"/>
+        <path d="M-29-9C-26-31-6-37 12-30-9-29-17-13-9 6-24 7-32 1-29-9Z" fill="url(#petal-middle)"/>
+        <path d="M12-30C34-34 40-10 23 6 13 14 2 10-2 4 12 4 25-6 12-30Z" fill="url(#petal-fold)"/>
+        <path d="M-21 10C-4 24 17 17 23 6 32 21 14 34-3 29-16 26-24 19-21 10Z" fill="url(#petal-middle)"/>
+        <path d="M-11-9C-8-23 8-24 15-12 17-2 7 8-3 4 5 2 11-6 6-11 1-17-7-14-11-9Z" fill="url(#petal-fold)"/>
+        <path d="M-49-15C-46-25-41-30-34-32M-21-46C-9-54 4-53 15-48M34-36C46-32 50-25 49-18M-23 37C-14 42-1 44 8 40" fill="none" stroke="#ffb6b3" stroke-opacity=".23" stroke-linecap="round" stroke-width="1.4"/>
+      </g>
+      <g id="long-rose">
+        <path d="M0 30C-13 120 21 212 2 339" stroke="url(#stem)" stroke-width="5" fill="none"/>
+        <path d="M-1 129C-55 125-62 98-65 82-20 81-9 103-1 129Z" fill="url(#leaf)"/>
+        <path d="M5 198C17 156 44 153 58 149 59 180 38 199 5 198Z" fill="url(#leaf)"/>
+        <path d="M-2 126-50 91M7 194 47 160" stroke="#91a184" stroke-opacity=".38" fill="none"/>
+        <use href="#rose-bloom"/>
+      </g>
+    </defs>
+  </svg>
+  <div class="ambient" aria-hidden="true"></div>
+  <div class="frame" aria-hidden="true"></div>
+  <div id="particles" class="particles" aria-hidden="true"></div>
+  <div id="petals" class="petals" aria-hidden="true"></div>
+
+  <header class="keepsake-header">
+    <span class="monogram" aria-label="Alejandro y Mia">A <span>·</span> M</span>
+    <span class="date">21 DE SEPTIEMBRE</span>
+  </header>
+
+  <main id="experience">
+    <section id="welcome" class="scene welcome" aria-labelledby="welcome-title">
+      <div class="welcome-content">
+        <div class="small-ornament" aria-hidden="true"><span></span> ♡ <span></span></div>
+        <p class="eyebrow">UN PEQUEÑO DETALLE, SOLO PARA VOS</p>
+        <h1 id="welcome-title" tabindex="-1"><em>Mia,</em><br>tengo algo<br class="mobile-break"> para vos <span class="heading-heart">♥</span></h1>
+        <p class="intro-copy">Preparé algo pequeño para alguien muy especial.</p>
+        <button id="open-gift" class="button primary" type="button">Abrir mi regalo <span aria-hidden="true">🌹</span></button>
+        <span class="handwritten">con todo mi cariño, Alejandro</span>
+      </div>
+      <p class="scene-footnote">LA DISTANCIA NO CAMBIA LO QUE SIENTO</p>
+    </section>
+
+    <section id="story" class="scene story" aria-labelledby="story-title" hidden>
+      <div class="story-content">
+        <span class="story-number" aria-hidden="true">01 / UNAS ROSAS PARA VOS</span>
+        <h2 id="story-title" tabindex="-1">Hoy no puedo entregarte estas rosas <em>con mis propias manos…</em></h2>
+        <div id="story-continuation" class="story-continuation" hidden>
+          <p>pero eso no significa que te vas a quedar sin las tuyas.</p>
+          <button id="receive-roses" class="button primary" type="button">Recibir mis rosas <span aria-hidden="true">♥</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="garden" class="scene garden" aria-labelledby="garden-title" hidden>
+      <p class="eyebrow">DE ALEJANDRO, CON AMOR</p>
+      <div id="bouquet-space" class="bouquet-space">
+        <div id="bouquet" class="bouquet" aria-label="Un ramo de diez rosas rojas, con hojas verdes, papel rosa y un lazo de seda" role="img">
+          <svg viewBox="0 0 600 640" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="paper-back" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#dac0b8"/><stop offset="1" stop-color="#9b787d"/></linearGradient>
+              <linearGradient id="paper-left" x1="0" y1="0" x2="1" y2=".6"><stop stop-color="#ddbeb7"/><stop offset=".5" stop-color="#b99192"/><stop offset="1" stop-color="#825a67"/></linearGradient>
+              <linearGradient id="paper-right" x1="1" y1="0" x2=".2" y2="1"><stop stop-color="#ebcfc4"/><stop offset=".55" stop-color="#c69da0"/><stop offset="1" stop-color="#8a616e"/></linearGradient>
+              <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b75670"/><stop offset=".4" stop-color="#632239"/><stop offset=".65" stop-color="#ab4b68"/><stop offset="1" stop-color="#51162d"/></linearGradient>
+              <clipPath id="bouquet-cut"><path d="M0 0H600V580H0Z"/></clipPath>
+            </defs>
+            <g class="paper-back bouquet-part" style="--delay:0s">
+              <path d="M105 218 197 121 306 160 397 121 497 247 345 571 251 570Z" fill="url(#paper-back)"/>
+              <path d="M105 218 300 489 197 121M497 247 300 489 397 121" stroke="#fbe8d0" stroke-opacity=".22"/>
+              <path d="m154 268-22-128 66 61 30-135 73 117L378 79l16 126 92-56-35 169-122 232Z" fill="#d6bcc0" fill-opacity=".19" stroke="#e7d2cd" stroke-opacity=".2"/>
+            </g>
+            <g clip-path="url(#bouquet-cut)">
+            <g class="bouquet-part" style="--delay:.2s"><g transform="translate(198 164) rotate(-23) scale(.85)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:.48s"><g transform="translate(297 107) rotate(1) scale(.96)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:.76s"><g transform="translate(393 150) rotate(25) scale(.91)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:1.04s"><g transform="translate(126 246) rotate(-36) scale(.88)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:1.32s"><g transform="translate(234 237) rotate(-13) scale(1.02)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:1.60s"><g transform="translate(329 207) rotate(13) scale(.97)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:1.88s"><g transform="translate(458 259) rotate(37) scale(.94)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:2.16s"><g transform="translate(195 316) rotate(-25) scale(.96)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:2.44s"><g transform="translate(299 305) rotate(-3) scale(1.03)"><use href="#long-rose"/></g></g>
+            <g class="bouquet-part" style="--delay:2.72s"><g transform="translate(387 334) rotate(26) scale(.92)"><use href="#long-rose"/></g></g>
+            </g>
+            <g class="wrap-front bouquet-part" style="--delay:3.1s">
+              <path d="M112 313C179 361 226 398 327 436L343 595 267 610C250 516 162 434 112 313Z" fill="url(#paper-left)"/>
+              <path d="M476 326C420 359 357 389 278 447L266 610 349 592C355 504 427 423 476 326Z" fill="url(#paper-right)"/>
+              <path d="M112 313C179 361 226 398 327 436M476 326C420 359 357 389 278 447" stroke="#ffe6d7" stroke-width="2" stroke-opacity=".65"/>
+              <path d="M151 366C198 420 254 467 281 560M448 368C405 424 358 465 331 560" stroke="#6d455c" stroke-opacity=".23"/>
+              <path d="m173 374 97 162-55-131M442 373 330 557l49-145" fill="#f8ded1" fill-opacity=".1"/>
+            </g>
+            <g class="bow bouquet-part" style="--delay:3.5s">
+              <path d="M277 503C259 520 251 550 224 573L256 573 268 592C272 555 298 531 302 512Z" fill="url(#ribbon)"/>
+              <path d="M305 508C312 540 346 557 349 589L363 569 385 570C359 543 350 516 324 504Z" fill="url(#ribbon)"/>
+              <path d="M296 501C283 468 236 449 224 471 210 496 257 518 296 510 329 535 381 507 368 482 356 459 322 475 301 500Z" fill="url(#ribbon)" stroke="#c9788d" stroke-opacity=".4"/>
+              <path d="M291 502C267 492 248 480 233 478M310 505C333 493 348 487 358 488" stroke="#e9a4b2" stroke-opacity=".4"/>
+              <path d="M288 493Q300 488 315 494L319 513Q301 520 285 511Z" fill="url(#ribbon)"/>
+            </g>
+          </svg>
+          <div class="bouquet-sparkles" aria-hidden="true"><span>✧</span><span>✧</span><span>·</span><span>✧</span></div>
+        </div>
+      </div>
+      <div id="bouquet-message" class="bouquet-message" hidden>
+        <h2 id="garden-title" tabindex="-1">Para <em>Mia</em> <span class="title-rose" aria-hidden="true">🌹</span></h2>
+        <p>Porque incluso a la distancia quería asegurarme<br class="desktop-break"> de que hoy recibieras tus rosas.</p>
+        <a class="discover-link" href="#meanings">Cada rosa significa algo <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <section id="meanings" class="meanings" aria-labelledby="meanings-title" hidden>
+        <div class="section-rule" aria-hidden="true"><span>♡</span></div>
+        <p class="eyebrow">SEIS ROSAS. SEIS PEQUEÑOS PORQUÉS.</p>
+        <h2 id="meanings-title">Pero estas rosas<br>no están acá <em>porque sí…</em></h2>
+        <p class="section-intro">Tocá cada una. Tiene algo para decirte.</p>
+        <div id="rose-grid" class="rose-grid"></div>
+        <p id="rose-progress" class="rose-progress" aria-live="polite">Hay un poquito de nosotros en cada una.</p>
+        <button id="show-envelope" class="button secondary" type="button">Todavía falta una cosa… <span aria-hidden="true">↗</span></button>
+      </section>
+    </section>
+
+    <section id="letter-scene" class="scene letter-scene" aria-labelledby="envelope-title" hidden>
+      <p class="eyebrow">HAY COSAS QUE MERECEN UNA CARTA</p>
+      <h2 id="envelope-title" tabindex="-1">Unas palabras,<br><em>solo para vos.</em></h2>
+      <button id="envelope" class="envelope" type="button" aria-label="Abrir la carta para Mia" aria-expanded="false" aria-controls="letter">
+        <span class="envelope-back"></span>
+        <span class="letter-peek"><span>Para Mia</span><i></i><i></i><i></i></span>
+        <span class="envelope-front"></span>
+        <span class="envelope-flap"></span>
+        <span class="wax-seal" aria-hidden="true">A<span>♡</span>M</span>
+        <span class="envelope-recipient">Para Mia, con amor</span>
+      </button>
+      <p id="envelope-hint" class="envelope-hint">Tocá el sobre para abrirlo</p>
+
+      <article id="letter" class="letter" aria-labelledby="letter-title" hidden>
+        <span class="letter-date">21 de septiembre</span>
+        <h2 id="letter-title" tabindex="-1">Para Mia <span aria-hidden="true">♡</span></h2>
+        <p>Mia, quizás hoy no pueda aparecer frente a vos con un ramo en las manos, pero quería encontrar mi propia forma de darte tus rosas.</p>
+        <p>Puede que sean virtuales, pero la intención detrás de ellas es completamente real.</p>
+        <p>Gracias por compartir tus días conmigo, por cada conversación, cada risa y cada pequeño momento que tenemos incluso estando lejos.</p>
+        <p>Espero que llegue el día en el que pueda cambiar este ramo virtual por uno que pueda entregarte personalmente.</p>
+        <p>Mientras tanto, estas son todas tuyas.</p>
+        <p class="letter-wish">Feliz 21 de septiembre, mi amor. 🌹❤️</p>
+        <p class="signature">Con amor,<br><em>Alejandro</em> <span aria-label="corazón">♥</span></p>
+        <button id="finish-letter" class="letter-close" type="button">Guardar mi carta y volver a mis rosas <span aria-hidden="true">↗</span></button>
+      </article>
+    </section>
+
+    <section id="final" class="scene final-scene" aria-labelledby="final-title" hidden>
+      <p class="eyebrow">HOY, Y CADA VEZ QUE VUELVAS</p>
+      <h2 id="final-title" tabindex="-1">Tus rosas siempre<br>van a estar <em>acá.</em> <span class="title-rose" aria-hidden="true">🌹</span></h2>
+      <div id="final-bouquet-space" class="bouquet-space"></div>
+      <p class="final-love">Te quiero, Mia <span aria-hidden="true">♥</span></p>
+      <p class="final-signature">Con amor, Alejandro</p>
+      <button id="reread-letter" class="text-button" type="button">Volver a leer mi carta</button>
+    </section>
+  </main>
+
+  <noscript><p class="no-script">Mia, activá JavaScript para abrir tu regalo. Con amor, Alejandro ❤️</p></noscript>
+</body>
+</html>
