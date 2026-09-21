@@ -63,12 +63,12 @@ h1 em { color: var(--pink); font-weight: 400; }
 .garden > .eyebrow { margin-bottom: -3px; }
 .bouquet-space { width: min(100%, 520px); margin: 0 auto; }
 .bouquet { position: relative; isolation: isolate; }
-.bouquet::before { content: ""; position: absolute; z-index: -1; inset: 8% -3% 15%; border-radius: 50%; background: radial-gradient(ellipse, #9c3c532b, transparent 68%); }
+.bouquet::before { content: ""; position: absolute; z-index: -1; inset: 8% -3% 15%; border-radius: 50%; background: radial-gradient(ellipse, #e5b62d24, transparent 68%); }
 .bouquet > svg { width: 100%; height: auto; overflow: visible; filter: drop-shadow(0 18px 21px #0005); }
 .bouquet-part { opacity: 0; transform: translateY(80px); }
 .bouquet.forming .bouquet-part { animation: grow-rose 1.25s cubic-bezier(.16, 1, .3, 1) var(--delay) both; }
 .bouquet.complete .bouquet-part { opacity: 1; transform: none; animation: none; }
-.bouquet-sparkles { position: absolute; inset: 0; color: #e7b9a5; pointer-events: none; }
+.bouquet-sparkles { position: absolute; inset: 0; color: #f4d980; pointer-events: none; }
 .bouquet-sparkles span { position: absolute; animation: sparkle 4s ease-in-out infinite; }
 .bouquet-sparkles span:nth-child(1) { left: 13%; top: 20%; font-size: 1.2rem; }
 .bouquet-sparkles span:nth-child(2) { right: 14%; top: 42%; animation-delay: -1.3s; }
@@ -142,7 +142,7 @@ h2 em { color: var(--pink); }
 .final-love span { font-size: 1.1rem; }
 .final-signature { color: #b58d9d; font: italic 1.1rem var(--serif); margin-bottom: 26px; }
 .text-button { border: 0; border-bottom: 1px solid #c091a435; background: none; color: #c091a4; font-size: .875rem; padding: 10px 1px; }
-.petal { position: absolute; top: -45px; width: 15px; height: 22px; border-radius: 80% 8% 70% 30%; background: linear-gradient(145deg, #e7879d, #a52e51 45%, #52162f); opacity: 0; animation: fall var(--fall-time) linear forwards; will-change: transform; }
+.petal { position: absolute; top: -45px; width: 15px; height: 22px; border-radius: 80% 8% 70% 30%; background: linear-gradient(145deg, #fff0a1, #e5b62d 45%, #96600b); opacity: 0; animation: fall var(--fall-time) linear forwards; will-change: transform; }
 .petal:nth-child(3n) { width: 11px; height: 17px; }
 body.page-paused .light, body.page-paused .petal, body.page-paused .bouquet-sparkles span { animation-play-state: paused; }
 @keyframes grow-rose { from { opacity: 0; transform: translateY(90px); } to { opacity: 1; transform: translateY(0); } }

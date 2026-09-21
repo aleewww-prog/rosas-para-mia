@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 -75 160 440" role="img" aria-label="Rosa roja ilustrada"><defs>
-      <linearGradient id="petal-outer" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e45b78"/><stop offset=".42" stop-color="#ad2449"/><stop offset="1" stop-color="#590d2a"/></linearGradient>
-      <linearGradient id="petal-middle" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f18a9b"/><stop offset=".25" stop-color="#d94c6b"/><stop offset=".74" stop-color="#9f183b"/><stop offset="1" stop-color="#570c27"/></linearGradient>
-      <linearGradient id="petal-fold" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#f4a2aa"/><stop offset=".2" stop-color="#d94c68"/><stop offset="1" stop-color="#7e1235"/></linearGradient>
-      <radialGradient id="rose-core"><stop stop-color="#4c0c24"/><stop offset=".6" stop-color="#8d1537"/><stop offset="1" stop-color="#cc405f"/></radialGradient>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 -75 160 440" role="img" aria-label="Rosa amarilla ilustrada"><defs>
+      <linearGradient id="petal-outer" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f7cf48"/><stop offset=".42" stop-color="#dfa91f"/><stop offset="1" stop-color="#96600b"/></linearGradient>
+      <linearGradient id="petal-middle" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0a1"/><stop offset=".25" stop-color="#f5cf52"/><stop offset=".74" stop-color="#d39b1d"/><stop offset="1" stop-color="#89560c"/></linearGradient>
+      <linearGradient id="petal-fold" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#fff5b6"/><stop offset=".2" stop-color="#f7d963"/><stop offset="1" stop-color="#a8720e"/></linearGradient>
+      <radialGradient id="rose-core"><stop stop-color="#765018"/><stop offset=".6" stop-color="#af7c13"/><stop offset="1" stop-color="#e5b62d"/></radialGradient>
       <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#577263"/><stop offset=".5" stop-color="#2a493d"/><stop offset="1" stop-color="#152c26"/></linearGradient>
       <linearGradient id="stem" x1="0" x2="1"><stop stop-color="#1b322a"/><stop offset=".5" stop-color="#64765b"/><stop offset="1" stop-color="#263f31"/></linearGradient>
       <g id="rose-bloom">
@@ -17,7 +17,7 @@
         <path d="M12-30C34-34 40-10 23 6 13 14 2 10-2 4 12 4 25-6 12-30Z" fill="url(#petal-fold)"/>
         <path d="M-21 10C-4 24 17 17 23 6 32 21 14 34-3 29-16 26-24 19-21 10Z" fill="url(#petal-middle)"/>
         <path d="M-11-9C-8-23 8-24 15-12 17-2 7 8-3 4 5 2 11-6 6-11 1-17-7-14-11-9Z" fill="url(#petal-fold)"/>
-        <path d="M-49-15C-46-25-41-30-34-32M-21-46C-9-54 4-53 15-48M34-36C46-32 50-25 49-18M-23 37C-14 42-1 44 8 40" fill="none" stroke="#ffb6b3" stroke-opacity=".23" stroke-linecap="round" stroke-width="1.4"/>
+        <path d="M-49-15C-46-25-41-30-34-32M-21-46C-9-54 4-53 15-48M34-36C46-32 50-25 49-18M-23 37C-14 42-1 44 8 40" fill="none" stroke="#fff7cf" stroke-opacity=".23" stroke-linecap="round" stroke-width="1.4"/>
       </g>
       <g id="long-rose">
         <path d="M0 30C-13 120 21 212 2 339" stroke="url(#stem)" stroke-width="5" fill="none"/>
